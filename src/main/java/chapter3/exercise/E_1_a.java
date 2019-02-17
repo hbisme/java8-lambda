@@ -1,9 +1,9 @@
-package chapter3;
+package chapter3.exercise;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-public class Test1_a {
+public class E_1_a {
 
     public static  Integer addup(Stream<Integer> numbers){
         return  numbers.reduce((x,y) -> x+y).get();

@@ -3,7 +3,7 @@ package common;
 import java.util.List;
 
 /**
- * 乐队
+ * 乐队(乐队中成员可以只有一个人)
  */
 public class Artist {
 
@@ -15,6 +15,11 @@ public class Artist {
 
     // 乐队来自哪里(例如: "利物浦")
     private String origin;
+
+    // 乐队是否只有一个人
+    Boolean isSolo() {
+        return numbers.size() > 1 ? false : true;
+    }
 
     public Artist() {
 
