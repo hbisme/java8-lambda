@@ -12,14 +12,14 @@ public class StaticNumber<musician1> {
     private static String person3 = "p3";
     private static List<String> numbers1 = Arrays.asList(person1, person2, person3);
     // 乐队1
-    public static Artist artist1 = new Artist("art1", numbers1, "hangzhou");
+    public static Artist artist1 = new Artist("甲壳虫乐队", numbers1, "hangzhou");
 
     private static String person4 = "p4";
     private static String person5 = "p5";
     private static String person6 = "p6";
-    private static List<String> numbers2 = Arrays.asList(person1, person2, person3);
+    private static List<String> numbers2 = Arrays.asList(person4, person5, person6);
     // 乐队2
-    public static Artist artist2 = new Artist("art2", numbers2, "shanghai");
+    public static Artist artist2 = new Artist("后街男孩乐队", numbers2, "shanghai");
 
 
     public static Artist[] getArtists1 = new Artist[]{artist1, artist2};

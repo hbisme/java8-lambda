@@ -54,4 +54,13 @@ public class Artist {
     public void setOrigin(String origin) {
         this.origin = origin;
     }
+
+    @Override
+    public String toString() {
+        return "Artist{" +
+                "name='" + name + '\'' +
+                ", numbers=" + numbers +
+                ", origin='" + origin + '\'' +
+                '}';
+    }
 }
